@@ -1,5 +1,3 @@
-
-
 const barCanvas = document.getElementById("barCanvas");
 const barChart = new Chart(barCanvas, {
     type: "bar",
