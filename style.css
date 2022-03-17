@@ -75,14 +75,8 @@
       
 
   }
-  .ccanvas canvas{
-      width: 20%;
-  }
-  .img
-  {
-      width: 450px;
-      height: auto;
-  }
+
+  
   a:hover {
     background-color: #333;
   }
