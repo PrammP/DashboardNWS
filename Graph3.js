@@ -14,7 +14,6 @@ const bareChart = new Chart(bareCanvas, {
     options: {
         scales: {
             y: {
-                suggestedMax: 200,
                 ticks: {
                     font: {
                         size: 18
@@ -29,6 +28,6 @@ const bareChart = new Chart(bareCanvas, {
                 }
             }
         },
-        indexAxis:'x',
+        
     }
 })

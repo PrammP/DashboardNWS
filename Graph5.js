@@ -6,7 +6,7 @@ const barChart = new Chart(barCanvas, {
     data: {
         labels: ["Rouen","Arrondissement de Rouen","Métropole Rouennaise","Arrondissement de Dieppe","Arrondissement du Havre","Eure","Normandie(Hors 27&76)","Hors Normandie"],
         datasets: [{
-            label: "Nombre d'entreprises",
+            label: "Nombre d'entreprises" ,
             data:[103,15,173,11,11,56,81,21],
             backgroundColor: [
                 "lightblue",
