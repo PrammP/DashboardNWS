@@ -2,10 +2,10 @@ const barCanvas = document.getElementById("barCanvas");
 const barChart = new Chart(barCanvas, {
     type: "bar",
     data: {
-        labels: ["Rouen","Métropole Rouennaise","Eure","Arrondissement de Rouen","Hors Normandie","Normandie(Hors 27&76)","Arrondissement du Havre", "Arrondissement de Dieppe"],
+        labels: ["Rouen","Arrondissement de Rouen","Métropole Rouennaise","Arrondissement de Dieppe","Arrondissement du Havre","Eure","Normandie(Hors 27&76)","Hors Normandie"],
         datasets: [{
             label: "Nombre d'entreprises" ,
-            data:[103,173,56,15,81,11,11,21],
+            data:[103,15,173,11,11,56,81,21],
             backgroundColor: [
                 "lightblue",
             ]
