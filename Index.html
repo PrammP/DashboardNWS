@@ -8,8 +8,42 @@
     <title>Chart js</title>
 </head>
 <body>
-    <canvas id="barCanvas" aria-label="chart" role="img"></canvas>
-    <srcipt src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"> </script>
+    <div class="sidebar">
+        <div class="sidebar-brand">
+          <h2><span class="fa fa-user-o"></span>Dashboard Alternance NWS</h2>
+        </div>
+    
+        <div class="sidebar-menu">
+          <ul>
+            <li>
+              <a href="Graph1.html" class="active"><span class="fa fa-home"></span><span>Accueil</span></a>
+            </li>
+            <li>
+              <a href="Graph2.html"><span class="fa fa-tasks"></span><span>Taches</span></a>
+            </li>
+            <li>
+              <a href="Graph3.html"><span class="fa fa-th-large"></span><span>Blog</span></a>
+            </li>
+            <li>
+              <a href="Graph4.html"><span class="fa fa-line-chart"></span><span>Statistique</span></a>
+            </li>
+            <li>
+              <a href="Graph5.html"><span class="fa fa-address-book"></span><span>A-propos</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+   
+    <div class="chart-container">
+     <canvas id="barCanvas" aria-label="chart" role="img"></canvas>
+     <canvas id="bareCanvas" aria-label="chart" role="img"></canvas>
+     
+     <h2> L'alternance au Sein de la Normandie Web School</h2>
+<canvas id="pieCanvas" aria-label="chart" role="img"></canvas>
+<canvas id="doughnutCanvas" aria-label="chart" role="img"></canvas>
+
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"> </script>
    <script src="script.js"></script>
 
    
