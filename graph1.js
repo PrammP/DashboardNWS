@@ -34,3 +34,5 @@ const lineChart = new Chart(lineCanvas, {
         }
     }
 })
+
+
