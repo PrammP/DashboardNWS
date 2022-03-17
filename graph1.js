@@ -7,8 +7,8 @@ const lineChart = new Chart(lineCanvas, {
            label:"Alternances",
             data:[62,107,23],
             fill: true,
-            backgroundColor: "Crimson",
-            tension: 0.4
+            backgroundColor: "#008ea1",
+            tension: 0.3
            
         }]
     },
