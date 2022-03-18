@@ -90,19 +90,19 @@
     padding: 10% 20%;
   }
   .img2{
-    margin-top: 170px;
-    margin-left: -290px;
+    margin-top: 135px;
+    margin-left: -297px;
   }
   .img3{
-    margin-left: 69%;
-    margin-top: -480px;
+    margin-left: 73%;
+    margin-top: -460px;
   }
   .img4{
     margin-left: 35%;
     margin-top: -100px;
   }
   .img5{
-    margin-left: 58%;
+    margin-left: 62%;
     margin-top: -280px;
   }
   .graph1f{
@@ -145,7 +145,7 @@
   .graph1f .title {
     font-size: 20px;
     text-transform:uppercase;
-    opacity: 0;
+    opacity: 1;
     transition-delay: 0.2s;
     transition-duration: 0.3s;
   }
@@ -200,7 +200,7 @@
   .graph2f .title {
     font-size: 20px;
     text-transform:uppercase;
-    opacity: 0;
+    opacity: 1;
     transition-delay: 0.2s;
     transition-duration: 0.3s;
   }
