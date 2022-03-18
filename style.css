@@ -16,7 +16,6 @@
     height: 100vh;
     background: #008ea1;
     z-index: 100;
-    transition: width 300ms;
   }
   .sidebar-brand{
     height: 90px;
