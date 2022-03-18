@@ -78,3 +78,144 @@
   a:hover {
     background-color: #333;
   }
+  .graph{
+    width: 65%;
+  }
+  .bodyyy{
+    background-color: #e8ebf0;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+  }
+  .img1{
+    padding: 10% 20%;
+  }
+  .img2{
+    margin-top: 170px;
+    margin-left: -290px;
+  }
+  .img3{
+    margin-left: 69%;
+    margin-top: -480px;
+  }
+  .img4{
+    margin-left: 35%;
+    margin-top: -100px;
+  }
+  .img5{
+    margin-left: 58%;
+    margin-top: -280px;
+  }
+  .graph1f{
+    cursor: pointer;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    text-align: center;
+  }
+  .graph1f .fadedbox {
+    background-color: #d6d4d4;
+    
+    position: absolute;
+    top: 0;
+    left: -10px;
+    color: rgb(0, 0, 0);
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    width: 450px;
+    height: 100px;
+    padding: 130px 20px;
+  }
+  .graph1f:hover .fadedbox {
+    opacity: 0.4;
+  }
+  .graph1f .txt {
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+  }
+  .graph1f .title {
+    font-size: 20px;
+    text-transform:uppercase;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+  }
+  .graph1f:hover .title,
+  .graph1f:focus .title {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+  }
+  .graph1f img
+  {
+  border-radius: 25px 25px;
+  justify-content: center;
+  }
+  .graph2f{
+    cursor: pointer;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    text-align: center;
+  }
+  .graph2f .fadedbox {
+    background-color: #d6d4d4;
+    
+    position: absolute;
+    top: 0;
+    left: -10px;
+    color: rgb(0, 0, 0);
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    width: 450px;
+    height: 290px;
+    padding: 130px 20px;
+  }
+  .graph2f:hover .fadedbox {
+    opacity: 0.4;
+  }
+  .graph2f .txt {
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+  }
+  .graph2f .title {
+    font-size: 20px;
+    text-transform:uppercase;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+  }
+  .graph2f:hover .title,
+  .graph2f:focus .title {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+  }
+  .graph2f img
+  {
+  border-radius: 25px 25px;
+  justify-content: center;
+  }
+  
+
